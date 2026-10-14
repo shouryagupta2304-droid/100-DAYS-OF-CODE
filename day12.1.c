@@ -12,10 +12,10 @@ int main(){
         printf("fine is =%d\n",fine = 2*late_days);
     }
     else if(late_days<=10){
-         printf("fine is =%d\n",fine = 4*late_days);
+         printf("fine is =%d\n",fine = 4*(late_days-5) + 10);
     }
     else if(late_days<=30){
-         printf("fine is =%d\n",fine = 6*late_days);
+         printf("fine is =%d\n",fine = 6*(late_days-10) + 30);
     }
     else{
         printf("Membership is cancelled.\n");
